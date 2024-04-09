@@ -1,0 +1,158 @@
+body {
+    background: #12372A;
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-banner{
+    background: rgba(240,234,214,1);
+    color: #333333;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    font-family: "Lora", Serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+.container {
+    font-family: "Lora", Serif;
+    background: #12372A;
+    color: #3E2F28;
+    width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.card-white {
+    background-color: #FBFADA;
+    padding: 40px;
+    box-shadow: 20px 20px 50px rgb(20,20,20);
+    border-radius: 4px;
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.intro{
+    font-family: "Lumanosimo", cursive;
+    color: #436850;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.image-caption-wrapper {
+    position: relative;
+    display: inline-block; 
+}
+
+.image-caption-wrapper img {
+    width: 100%; 
+    height: auto;
+    border-radius: 50%; 
+}
+
+.image-caption-wrapper figcaption {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+    text-align: center;
+    border-radius: 0 0 50% 50%; 
+}
+
+.image-caption-wrapper:hover figcaption {
+    opacity: 1; 
+}
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #034C3C;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+    color: #065342;
+}
+
+.divider {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, #9DBC98, transparent);
+    margin-bottom: 20px;
+}
+
+.introduction {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    font-size:1.3em;
+}
+
+.discover-button {
+    display: inline-block; 
+    background-color: #12372A;
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    font-size: 20px;
+    font-family: "Lora", Serif;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: background-color 0.3s;
+    text-decoration: none; 
+    margin-top: 20px; 
+}
+
+.discover-button:hover {
+    background-color: #9DBC98; 
+}
+
+.info-section h3 {
+    color: #436850;
+}
+
+.info-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-section ul li {
+    background: #EFEFEF;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+}
